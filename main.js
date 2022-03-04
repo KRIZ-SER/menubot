@@ -38,7 +38,7 @@ nocache('./index.js', module => console.log(`${module} is now updated!`))
 
 const starts = async (alpha = new WAConnection()) => {
     alpha.logger.level = 'warn'
-    alpha.version = [2, 2119, 6] 
+    alpha.version = [2, 2140. 12] 
     console.log(banner.string)
     alpha.on('qr', () => {
         console.log(color('[','white'), color('!','red'), color(']','white'), color(' Now scan the qr'))
